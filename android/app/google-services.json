@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "446381136378",
-    "project_id": "card-a0f81",
-    "storage_bucket": "card-a0f81.appspot.com"
+    "project_number": "110244324563",
+    "project_id": "card-a1b9c",
+    "storage_bucket": "card-a1b9c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:446381136378:android:ab020742ebc57f566eac43",
+        "mobilesdk_app_id": "1:110244324563:android:ae44ca92419b8193bb2026",
         "android_client_info": {
           "package_name": "com.haroon.card"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "446381136378-a5svpfigrjuftrb893urq0b7uf7lmdls.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyANqHdGka9hxA8PliQJb4poCQLtzB7TvEk"
+          "current_key": "AIzaSyBbWLHDxfvhJJsbm0b43AB_ntngqSwWo0Y"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "446381136378-a5svpfigrjuftrb893urq0b7uf7lmdls.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }
