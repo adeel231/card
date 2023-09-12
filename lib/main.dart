@@ -1,15 +1,14 @@
 // import 'package:card/firebase_options.dart';
-import 'package:card/home.dart';
+import 'package:card/datting_cards_screen.dart';
+// import 'package:card/firebase_db_class.dart';
+// import 'package:card/home.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  // options:
-  // currentFirebaseOptions, // Initialize Firebase with the configuration from firebase_options.dart
-
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -24,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const DatingCard(),
+      home: const DattingCards(),
     );
   }
 }
